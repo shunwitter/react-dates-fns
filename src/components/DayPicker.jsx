@@ -617,7 +617,7 @@ class DayPicker extends React.PureComponent {
     }
 
     if (newMonth && (!focusedDate || !isDayVisible(focusedDate, newMonth, numberOfMonths))) {
-      focusedDate = startOfMOnth(newMonth);
+      focusedDate = startOfMonth(newMonth);
     }
 
     return focusedDate;
